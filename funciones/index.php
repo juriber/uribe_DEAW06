@@ -20,4 +20,9 @@ echo suma(5, 7);  // Llama a la función suma y muestra el resultado
 // Llamada a la función saludo
 echo saludo("Juan");  // Llama a la función saludo y muestra el saludo
 
+
+// Llamada a la función área del círculo
+$radio = 5;  // Definir el radio
+$area = area_circulo($radio);  // Llama a la función área_circulo y almacena el resultado
+echo "El área del círculo con radio $radio es: $area";  // Muestra el resultado
 ?>
